@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "blissnotes",
+    "name": "Bliss-Notes",
     "slug": "blissnotes",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,18 +8,19 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/splashscreen_image.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true                                                                                         
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/appIcon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.blissnotes"
     },
     "web": {
       "bundler": "metro",
